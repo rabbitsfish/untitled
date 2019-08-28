@@ -1,0 +1,45 @@
+07-29 13:11:10.213 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_expose , eventLabel = com.dl.infostreamdemo , map = {name=14岁女生晚上公园约见16岁男网友，谁知遭到男孩杀害后奸尸, channel=推荐, CP=佰策, url=https://mini.eastday.com/mobile/190727214905594.html?qid=qid11375&dp=JnJlc29sdXRpb249MTA4MHgyMDE2JmltZWk9MDA4NjAwMjExNjUxMDQ2Jm5ldD1XSUZJJm9wZXJhdG9ydHlwZT0yJm1vZGVsPUdJT05FRU03Jm9zdmVyPTcuMS4x}
+07-29 13:11:10.214 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_expose , isExceptYouJu = false
+07-29 13:11:21.909 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 操作事件=下滑}
+07-29 13:11:21.909 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , isExceptYouJu = false
+07-29 13:11:21.910 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Downglide , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 操作事件=下滑}
+07-29 13:11:21.911 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Downglide , isExceptYouJu = false
+07-29 13:11:22.742 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 操作事件=下滑}
+07-29 13:11:22.742 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , isExceptYouJu = false
+07-29 13:11:22.744 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Downglide , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 操作事件=下滑}
+07-29 13:11:22.744 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Downglide , isExceptYouJu = false
+07-29 13:11:23.284 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 操作事件=下滑}
+07-29 13:11:23.284 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , isExceptYouJu = false
+07-29 13:11:23.285 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Downglide , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 操作事件=下滑}
+07-29 13:11:23.285 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Downglide , isExceptYouJu = false
+07-29 13:11:23.795 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 操作事件=下滑}
+07-29 13:11:23.795 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , isExceptYouJu = false
+07-29 13:11:23.795 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Downglide , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 操作事件=下滑}
+07-29 13:11:23.795 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Downglide , isExceptYouJu = false
+07-29 13:11:24.039 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Refresh , eventLabel = com.dl.infostreamdemo , map = {刷新方式=用户手动做下拉操作的下拉刷新, channel=推荐, CP_=[{"res":8}], CP=佰策}
+07-29 13:11:24.039 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Refresh , isExceptYouJu = false
+07-29 13:11:24.040 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_adRefresh , eventLabel = com.dl.infostreamdemo , map = {刷新方式=用户手动做下拉操作的下拉刷新, channel=推荐, CP_=[{"res":2}], CP=佰策}
+07-29 13:11:24.041 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_adRefresh , isExceptYouJu = false
+07-29 13:11:24.049 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 操作事件=refresh}
+07-29 13:11:24.050 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , isExceptYouJu = false
+07-29 13:11:24.667 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_expose , eventLabel = com.dl.infostreamdemo , map = {name=雷锋受伤为何没抢救活60年后，他的连长说出令人痛心的原因, channel=推荐, CP=佰策, url=https://mini.eastday.com/mobile/190727153208976.html?qid=qid11375&dp=JnJlc29sdXRpb249MTA4MHgyMDE2JmltZWk9MDA4NjAwMjExNjUxMDQ2Jm5ldD1XSUZJJm9wZXJhdG9ydHlwZT0yJm1vZGVsPUdJT05FRU03Jm9zdmVyPTcuMS4x}
+07-29 13:11:24.667 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_expose , isExceptYouJu = false
+07-29 13:11:24.686 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_adexpose , eventLabel = com.dl.infostreamdemo , map = {name=今日头条极速版, channel=推荐, CP=佰策, url=}
+07-29 13:11:24.686 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_adexpose , isExceptYouJu = false
+07-29 13:11:24.730 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_expose , eventLabel = com.dl.infostreamdemo , map = {name=农民外出打工能赚钱，但也要重视三点，尤其是自己的健康，多注意, channel=推荐, CP=佰策, url=https://mini.eastday.com/mobile/190729130237204.html?qid=qid11375&dp=JnJlc29sdXRpb249MTA4MHgyMDE2JmltZWk9MDA4NjAwMjExNjUxMDQ2Jm5ldD1XSUZJJm9wZXJhdG9ydHlwZT0yJm1vZGVsPUdJT05FRU03Jm9zdmVyPTcuMS4x}
+07-29 13:11:24.731 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_expose , isExceptYouJu = false
+07-29 13:11:26.528 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_expose , eventLabel = com.dl.infostreamdemo , map = {name=熟悉的味道！中超争冠局势：国安倒车，上港刹车，恒大又超车了, channel=推荐, CP=佰策, url=https://mini.eastday.com/mobile/190729123744940.html?qid=qid11375&dp=JnJlc29sdXRpb249MTA4MHgyMDE2JmltZWk9MDA4NjAwMjExNjUxMDQ2Jm5ldD1XSUZJJm9wZXJhdG9ydHlwZT0yJm1vZGVsPUdJT05FRU03Jm9zdmVyPTcuMS4x}
+07-29 13:11:26.528 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_expose , isExceptYouJu = false
+07-29 13:14:05.187 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 操作事件=上滑}
+07-29 13:14:05.187 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , isExceptYouJu = false
+07-29 13:14:05.189 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Upglide , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 操作事件=上滑}
+07-29 13:14:05.189 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Upglide , isExceptYouJu = false
+07-29 13:14:05.587 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 操作事件=上滑}
+07-29 13:14:05.587 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , isExceptYouJu = false
+07-29 13:14:05.587 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Upglide , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 操作事件=上滑}
+07-29 13:14:05.588 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Upglide , isExceptYouJu = false
+07-29 13:14:05.836 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_adexpose , eventLabel = com.dl.infostreamdemo , map = {name=自如租房, channel=推荐, CP=佰策, url=}
+07-29 13:14:05.836 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_adexpose , isExceptYouJu = false
+07-29 13:14:05.953 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_expose , eventLabel = com.dl.infostreamdemo , map = {name=苹果推送iOS12.4正式版，作为iOS12的最后版本，要不要升级？, channel=推荐, CP=佰策, url=https://mini.eastday.com/mobile/190729120748289.html?qid=qid11375&dp=JnJlc29sdXRpb249MTA4MHgyMDE2JmltZWk9MDA4NjAwMjExNjUxMDQ2Jm5ldD1XSUZJJm9wZXJhdG9ydHlwZT0yJm1vZGVsPUdJT05FRU03Jm9zdmVyPTcuMS4x}
+07-29 13:14:05.953 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_expose , isExceptYouJu = false
+07-29 13:14:06.008 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_expose , eventLabel = com.dl.infostreamdemo , map = {name=被雷劈了？宁波女车主高速上前挡风玻璃突然迸裂！心跳都乱了！谁知竟是…, channel=推荐, CP=佰策, url=https://mini.eastday.com/mob

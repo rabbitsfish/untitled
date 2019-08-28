@@ -1,0 +1,13 @@
+
+platformName: Android
+appPackage: com.dl.infostreamdemo
+appActivity: .MainActivity
+platformVersion: 7.1.1
+automationName: uiautomator2
+app: News_sdkDemo_1.0.0.l.apk
+noReset: True
+unicodeKeyboard: True
+resetKeyboard: True
+newCommandTimeout: 2000
+autoGrantPermissions: True
+deviceName: CIV8GYDILJPNS4MJ

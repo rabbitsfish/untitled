@@ -1,0 +1,13 @@
+
+platformName: Android
+appPackage: com.android.browser
+appActivity: .InnBrowserActivity
+platformVersion: 7.1.1
+automationName: uiautomator2
+app: Amigo_Browser_5.5.6.ah.apk
+noReset: True
+unicodeKeyboard: True
+resetKeyboard: True
+newCommandTimeout: 2000
+autoGrantPermissions: True
+deviceName: CIV8GYDILJPNS4MJ

@@ -1,0 +1,22 @@
+07-29 13:15:45.682 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_time , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 时长=76.00, 类型=资讯详情页停留时长}
+07-29 13:15:45.683 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_time , isExceptYouJu = false
+07-29 13:15:46.494 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 操作事件=下滑}
+07-29 13:15:46.494 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , isExceptYouJu = false
+07-29 13:15:46.496 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Downglide , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 操作事件=下滑}
+07-29 13:15:46.496 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Downglide , isExceptYouJu = false
+07-29 13:15:47.251 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 操作事件=下滑}
+07-29 13:15:47.251 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , isExceptYouJu = false
+07-29 13:15:47.252 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Downglide , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 操作事件=下滑}
+07-29 13:15:47.253 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Downglide , isExceptYouJu = false
+07-29 13:15:48.453 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Refresh , eventLabel = com.dl.infostreamdemo , map = {刷新方式=用户手动做下拉操作的下拉刷新, channel=推荐, CP_=[{"res":8}], CP=佰策}
+07-29 13:15:48.453 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_Refresh , isExceptYouJu = false
+07-29 13:15:48.454 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_adRefresh , eventLabel = com.dl.infostreamdemo , map = {刷新方式=用户手动做下拉操作的下拉刷新, channel=推荐, CP_=[{"res":2}], CP=佰策}
+07-29 13:15:48.454 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_adRefresh , isExceptYouJu = false
+07-29 13:15:48.461 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , eventLabel = com.dl.infostreamdemo , map = {CP=佰策, 操作事件=refresh}
+07-29 13:15:48.461 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_pv , isExceptYouJu = false
+07-29 13:15:49.097 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_expose , eventLabel = com.dl.infostreamdemo , map = {name=中超20轮净比赛时间：恒大人和近60分钟居首 苏宁战深圳垫底, channel=推荐, CP=佰策, url=https://mini.eastday.com/mobile/190729110929691.html?qid=qid11375&dp=JnJlc29sdXRpb249MTA4MHgyMDE2JmltZWk9MDA4NjAwMjExNjUxMDQ2Jm5ldD1XSUZJJm9wZXJhdG9ydHlwZT0yJm1vZGVsPUdJT05FRU03Jm9zdmVyPTcuMS4x}
+07-29 13:15:49.097 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_expose , isExceptYouJu = false
+07-29 13:15:49.120 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_adexpose , eventLabel = com.dl.infostreamdemo , map = {name=今日头条极速版, channel=推荐, CP=佰策, url=}
+07-29 13:15:49.120 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_adexpose , isExceptYouJu = false
+07-29 13:15:50.983 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_expose , eventLabel = com.dl.infostreamdemo , map = {name=谢娜产后素颜示人，与张杰十指相扣，网友：做最真实的妈妈！, channel=推荐, CP=佰策, url=https://mini.eastday.com/mobile/190729123332838.html?qid=qid11375&dp=JnJlc29sdXRpb249MTA4MHgyMDE2JmltZWk9MDA4NjAwMjExNjUxMDQ2Jm5ldD1XSUZJJm9wZXJhdG9ydHlwZT0yJm1vZGVsPUdJT05FRU03Jm9zdmVyPTcuMS4x}
+07-29 13:15:50.984 17709 17833 D DLINFOSDK: [InfoStreamStatistics][] eventId = News_expose , isExceptYouJu = false
