@@ -2,480 +2,308 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49ad535c-dfa3-4d51-841a-7e426c9de576" name="Default" comment="XXXX">
-      <change beforePath="$PROJECT_DIR$/../kyb_testAppium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kyb_testAppium/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kyb_testAppium/common/desired_caps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../kyb_testAppium/common/desired_caps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kyb_testAppium/logs/log_test.log" beforeDir="false" afterPath="$PROJECT_DIR$/../kyb_testAppium/logs/log_test.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser_api_hrun/base_tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser_api_hrun/testsuites/ilent_installation_testsuit.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser_api_hrun/testsuites/up_chl_testsuit.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser_api_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser_api_test/case/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser_api_test/case/cdsp_conf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser_api_test/case/cdsp_conf/test_ilent_installation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser_api_test/case/cdsp_conf/test_ilent_installation_ratio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser_api_test/case/toutiao_news_source_config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser_api_test/case/toutiao_news_source_config/source_limit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser_api_test/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser_api_test/common/base_tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser_api_test/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_api/api/get_encryption_imei.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_api/data/get_imeis.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_api/data/get_models.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_api/debugtalk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_api/testcases/music_get_adaptOtherMusicSwitch_config_testcase.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_api/testcases/music_get_config_testcase.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_api/testcases/music_get_notification_ad_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_api/testcases/music_get_testXXX_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_api/testsuites/music_config_testsuite.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taihe_api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taihe_api/get_CN_singer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taihe_api/get_HK_signer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taihe_api/modify_taihe_result.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test03/1111.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test03/change_huangli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test03/change_music_news.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test03/direct_url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test04/11.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test04/50.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test04/UDP_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test04/addones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test04/bb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test04/counter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test04/debugtalk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test04/forMitmproxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test04/getCps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test04/getPushMsg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test04/get_browser_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test04/get_meizu_ad_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test04/get_models.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test04/get_more_news.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test04/get_third_music_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test04/test_post_config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test05/20190920_222543.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test05/20190920_231922.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test05/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test05/data_contrast.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test05/sqllab_untitled_query_20190916T115105.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test05/音乐埋点.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test06/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test06/aa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test06/bb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test06/bbb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test06/ccc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test06/comparing_MD5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test06/forAes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test06/forAudio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test06/forRes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test06/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test07/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test07/create_folder_100.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test07/for_mz_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test07/more_mult.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test07/my_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test07/orderservice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test07/p1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test07/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test07/test_fixture_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test07/test_loop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test07/test_mark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test07/test_os.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test07/test_pytest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test07/test_threading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test07/test_time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.py" beforeDir="false" afterPath="$PROJECT_DIR$/a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test01/test_append.py" beforeDir="false" afterPath="$PROJECT_DIR$/test01/test_append.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test03/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test03/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test03/ad_slow.py" beforeDir="false" afterPath="$PROJECT_DIR$/test03/ad_slow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test03/base_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/test03/base_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test03/tangent_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/test03/tangent_count.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test04/.a.b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/browser_api_hrun/testcases/contain_sdk_and_from_testcase.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test04/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test04/__init__.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/untitled$direct_url.coverage" NAME="direct_url Coverage Results" MODIFIED="1567083073222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
+    <SUITE FILE_PATH="coverage/untitled$get_for_money.coverage" NAME="get_for_money Coverage Results" MODIFIED="1566975935378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02" />
+    <SUITE FILE_PATH="coverage/untitled$UDP_test.coverage" NAME="UDP_test Coverage Results" MODIFIED="1567083756496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test04" />
+    <SUITE FILE_PATH="coverage/untitled$aa.coverage" NAME="aa Coverage Results" MODIFIED="1566976016112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02" />
+    <SUITE FILE_PATH="coverage/untitled$for_join.coverage" NAME="for_join Coverage Results" MODIFIED="1554367489300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02" />
+    <SUITE FILE_PATH="coverage/untitled$Unittests_for_test_ilent_installation_TestSilentInstallation.coverage" NAME="Unittests for test_ilent_installation.TestSilentInstallation Coverage Results" MODIFIED="1571046855305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/browser_api_test/case/cdsp_conf" />
+    <SUITE FILE_PATH="coverage/untitled$change_huangli.coverage" NAME="change_huangli Coverage Results" MODIFIED="1573222712986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
+    <SUITE FILE_PATH="coverage/untitled$debugtalk.coverage" NAME="debugtalk Coverage Results" MODIFIED="1567255429964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test04" />
+    <SUITE FILE_PATH="coverage/untitled$BB.coverage" NAME="BB Coverage Results" MODIFIED="1553958020759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01" />
+    <SUITE FILE_PATH="coverage/untitled$excute_adb.coverage" NAME="excute_adb Coverage Results" MODIFIED="1564715106941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/News_sdk/baseView" />
+    <SUITE FILE_PATH="coverage/untitled$Unittests_for_test_ilent_installation_TestSilentInstallation_test_contain_no_sdk_and_no_cdsp.coverage" NAME="Unittests for test_ilent_installation.TestSilentInstallation.test_contain_no_sdk_and_no_cdsp Coverage Results" MODIFIED="1571047208092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/browser_api_test/case/cdsp_conf" />
+    <SUITE FILE_PATH="coverage/untitled$ls.coverage" NAME="ls Coverage Results" MODIFIED="1563971908096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test04" />
+    <SUITE FILE_PATH="coverage/untitled$tangent_count.coverage" NAME="tangent_count Coverage Results" MODIFIED="1573699875015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
+    <SUITE FILE_PATH="coverage/untitled$onethr.coverage" NAME="onethr Coverage Results" MODIFIED="1554361467033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02" />
+    <SUITE FILE_PATH="coverage/untitled$forAudio.coverage" NAME="forAudio Coverage Results" MODIFIED="1579829109307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test06" />
+    <SUITE FILE_PATH="coverage/untitled$taihe_api.coverage" NAME="taihe_api Coverage Results" MODIFIED="1579076792944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$Unittests_in_for_news_switch_hot_news_py.coverage" NAME="Unittests in for_news_switch_hot_news.py Coverage Results" MODIFIED="1564736148128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
+    <SUITE FILE_PATH="coverage/untitled$getvideo.coverage" NAME="getvideo Coverage Results" MODIFIED="1565703183743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02" />
+    <SUITE FILE_PATH="coverage/untitled$forRes.coverage" NAME="forRes Coverage Results" MODIFIED="1576152692899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test06" />
+    <SUITE FILE_PATH="coverage/untitled$forAes.coverage" NAME="forAes Coverage Results" MODIFIED="1576145668461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test06" />
+    <SUITE FILE_PATH="coverage/untitled$comparing_MD5.coverage" NAME="comparing_MD5 Coverage Results" MODIFIED="1575377255597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test06" />
+    <SUITE FILE_PATH="coverage/untitled$get_CN_singer.coverage" NAME="get_CN_singer Coverage Results" MODIFIED="1579077194434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/taihe_api" />
+    <SUITE FILE_PATH="coverage/untitled$desired_caps__2_.coverage" NAME="desired_caps (2) Coverage Results" MODIFIED="1564151386577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/News_sdk/common" />
+    <SUITE FILE_PATH="coverage/untitled$a.coverage" NAME="a Coverage Results" MODIFIED="1574773339160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$ticketthr.coverage" NAME="ticketthr Coverage Results" MODIFIED="1554365168836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02" />
+    <SUITE FILE_PATH="coverage/untitled$get_more_news.coverage" NAME="get_more_news Coverage Results" MODIFIED="1567676454875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test04" />
+    <SUITE FILE_PATH="coverage/untitled$file_read.coverage" NAME="file_read Coverage Results" MODIFIED="1564411530695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
+    <SUITE FILE_PATH="coverage/untitled$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1575459688204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test04" />
+    <SUITE FILE_PATH="coverage/untitled$getCps.coverage" NAME="getCps Coverage Results" MODIFIED="1577697935305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test04" />
+    <SUITE FILE_PATH="coverage/untitled$card_main.coverage" NAME="card_main Coverage Results" MODIFIED="1554047850537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/card_sys" />
+    <SUITE FILE_PATH="coverage/untitled$Unittests_for_test_ilent_installation_ratio_TEstIlentInstallationRation.coverage" NAME="Unittests for test_ilent_installation_ratio.TEstIlentInstallationRation Coverage Results" MODIFIED="1571228349061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/browser_api_test/case/cdsp_conf" />
+    <SUITE FILE_PATH="coverage/untitled$bb__1_.coverage" NAME="bb (1) Coverage Results" MODIFIED="1575457455052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test04" />
     <SUITE FILE_PATH="coverage/untitled$AA.coverage" NAME="AA Coverage Results" MODIFIED="1553836504552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01" />
     <SUITE FILE_PATH="coverage/untitled$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1562905195079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/browser_news" />
     <SUITE FILE_PATH="coverage/untitled$Tangent_count.coverage" NAME="Tangent_count Coverage Results" MODIFIED="1564494939755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
-    <SUITE FILE_PATH="coverage/untitled$get_for_money.coverage" NAME="get_for_money Coverage Results" MODIFIED="1566975935378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02" />
-    <SUITE FILE_PATH="coverage/untitled$test_append.coverage" NAME="test_append Coverage Results" MODIFIED="1553959778295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01" />
-    <SUITE FILE_PATH="coverage/untitled$aa.coverage" NAME="aa Coverage Results" MODIFIED="1566976016112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02" />
-    <SUITE FILE_PATH="coverage/untitled$for_join.coverage" NAME="for_join Coverage Results" MODIFIED="1554367489300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02" />
+    <SUITE FILE_PATH="coverage/untitled$test_append.coverage" NAME="test_append Coverage Results" MODIFIED="1582381311935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01" />
     <SUITE FILE_PATH="coverage/untitled$for_queue_test.coverage" NAME="for_queue_test Coverage Results" MODIFIED="1554384703576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02" />
     <SUITE FILE_PATH="coverage/untitled$aaa.coverage" NAME="aaa Coverage Results" MODIFIED="1562293882561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
     <SUITE FILE_PATH="coverage/untitled$for_itchat.coverage" NAME="for_itchat Coverage Results" MODIFIED="1555233451813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02" />
-    <SUITE FILE_PATH="coverage/untitled$ad_slow.coverage" NAME="ad_slow Coverage Results" MODIFIED="1565102066565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
+    <SUITE FILE_PATH="coverage/untitled$ad_slow.coverage" NAME="ad_slow Coverage Results" MODIFIED="1569486792061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
     <SUITE FILE_PATH="coverage/untitled$impter.coverage" NAME="impter Coverage Results" MODIFIED="1553956403364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01" />
-    <SUITE FILE_PATH="coverage/untitled$BB.coverage" NAME="BB Coverage Results" MODIFIED="1553958020759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01" />
-    <SUITE FILE_PATH="coverage/untitled$excute_adb.coverage" NAME="excute_adb Coverage Results" MODIFIED="1564715106941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/News_sdk/baseView" />
     <SUITE FILE_PATH="coverage/untitled$for_news_switch.coverage" NAME="for_news_switch Coverage Results" MODIFIED="1564733299010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
     <SUITE FILE_PATH="coverage/untitled$desired_caps__1_.coverage" NAME="desired_caps (1) Coverage Results" MODIFIED="1564149752819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/News_sdk" />
+    <SUITE FILE_PATH="coverage/untitled$Unittests_for_test_ilent_installation_ratio_TEstIlentInstallationRation_test_ration.coverage" NAME="Unittests for test_ilent_installation_ratio.TEstIlentInstallationRation.test_ration Coverage Results" MODIFIED="1571228289006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/browser_api_test/case/cdsp_conf" />
+    <SUITE FILE_PATH="coverage/untitled$data_contrast.coverage" NAME="data_contrast Coverage Results" MODIFIED="1568992830448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test05" />
     <SUITE FILE_PATH="coverage/untitled$mtsleep.coverage" NAME="mtsleep Coverage Results" MODIFIED="1554362020929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02" />
-    <SUITE FILE_PATH="coverage/untitled$ls.coverage" NAME="ls Coverage Results" MODIFIED="1563971908096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test04" />
     <SUITE FILE_PATH="coverage/untitled$forls.coverage" NAME="forls Coverage Results" MODIFIED="1564025087037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test04" />
     <SUITE FILE_PATH="coverage/untitled$product_or_customer.coverage" NAME="product_or_customer Coverage Results" MODIFIED="1554384788989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02" />
     <SUITE FILE_PATH="coverage/untitled$base_tools.coverage" NAME="base_tools Coverage Results" MODIFIED="1565679497587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
-    <SUITE FILE_PATH="coverage/untitled$tangent_count.coverage" NAME="tangent_count Coverage Results" MODIFIED="1564558974914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
-    <SUITE FILE_PATH="coverage/untitled$onethr.coverage" NAME="onethr Coverage Results" MODIFIED="1554361467033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02" />
+    <SUITE FILE_PATH="coverage/untitled$Unittests_in_test_ilent_installation_py.coverage" NAME="Unittests in test_ilent_installation.py Coverage Results" MODIFIED="1571047219741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/browser_api_test/case/cdsp_conf" />
     <SUITE FILE_PATH="coverage/untitled$send_desktop_cmd_request.coverage" NAME="send_desktop_cmd_request Coverage Results" MODIFIED="1564457885751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
-    <SUITE FILE_PATH="coverage/untitled$Unittests_in_for_news_switch_hot_news_py.coverage" NAME="Unittests in for_news_switch_hot_news.py Coverage Results" MODIFIED="1564736148128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
-    <SUITE FILE_PATH="coverage/untitled$getvideo.coverage" NAME="getvideo Coverage Results" MODIFIED="1565703183743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02" />
-    <SUITE FILE_PATH="coverage/untitled$desired_caps__2_.coverage" NAME="desired_caps (2) Coverage Results" MODIFIED="1564151386577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/News_sdk/common" />
-    <SUITE FILE_PATH="coverage/untitled$bbb.coverage" NAME="bbb Coverage Results" MODIFIED="1565004097421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
-    <SUITE FILE_PATH="coverage/untitled$a.coverage" NAME="a Coverage Results" MODIFIED="1564716046602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$change_music_news.coverage" NAME="change_music_news Coverage Results" MODIFIED="1572705878557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
+    <SUITE FILE_PATH="coverage/untitled$bbb.coverage" NAME="bbb Coverage Results" MODIFIED="1579838034698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test06" />
+    <SUITE FILE_PATH="coverage/untitled$Unittests_for_test_ilent_installation_TestSilentInstallation_test_contain_sdk_and_cdsp.coverage" NAME="Unittests for test_ilent_installation.TestSilentInstallation.test_contain_sdk_and_cdsp Coverage Results" MODIFIED="1571200408921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/browser_api_test/case/cdsp_conf" />
     <SUITE FILE_PATH="coverage/untitled$zhuangshi.coverage" NAME="zhuangshi Coverage Results" MODIFIED="1554275383741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02" />
-    <SUITE FILE_PATH="coverage/untitled$bb.coverage" NAME="bb Coverage Results" MODIFIED="1554041988688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02" />
-    <SUITE FILE_PATH="coverage/untitled$ticketthr.coverage" NAME="ticketthr Coverage Results" MODIFIED="1554365168836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02" />
-    <SUITE FILE_PATH="coverage/untitled$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1561376845967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
-    <SUITE FILE_PATH="coverage/untitled$file_read.coverage" NAME="file_read Coverage Results" MODIFIED="1564411530695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
+    <SUITE FILE_PATH="coverage/untitled$bb.coverage" NAME="bb Coverage Results" MODIFIED="1579782240838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test06" />
     <SUITE FILE_PATH="coverage/untitled$class02.coverage" NAME="class02 Coverage Results" MODIFIED="1566975915023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test03" />
     <SUITE FILE_PATH="coverage/untitled$desired_caps.coverage" NAME="desired_caps Coverage Results" MODIFIED="1563437773747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/browser_news" />
-    <SUITE FILE_PATH="coverage/untitled$card_main.coverage" NAME="card_main Coverage Results" MODIFIED="1554047850537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/card_sys" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test02/get_for_money.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/a.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test02/aa.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test02/zhuangshi.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test03/aaa.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test03/class02.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test03/ad_slow.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test03/base_tools.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test03/bbb.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test02/money.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="yet_unknown" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>exe_command</find>
-      <find>get_config</find>
-      <find>stat/E420d43e7a1bb94e96441a952c6672f6/bded72d34c9689cfcd895ea6efccb3a7</find>
-    </findStrings>
-    <dirStrings>
-      <dir>C:\Users\dongff\PycharmProjects\untitled</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/test02/for_itchat.py" />
-        <option value="$PROJECT_DIR$/test03.py" />
-        <option value="$PROJECT_DIR$/test03/promiss.html" />
-        <option value="$PROJECT_DIR$/test03/aaa.py" />
-        <option value="$PROJECT_DIR$/browser_news/desired_caps.yaml" />
-        <option value="$PROJECT_DIR$/browser_news/config/test02.py" />
-        <option value="$PROJECT_DIR$/browser_news/config/log.conf" />
-        <option value="$PROJECT_DIR$/browser_news/test01.py" />
-        <option value="$PROJECT_DIR$/browser_news/config/desired_caps.yaml" />
-        <option value="$PROJECT_DIR$/browser_news/desired_caps.py" />
-        <option value="$PROJECT_DIR$/test04/ls.py" />
-        <option value="$PROJECT_DIR$/test04/forls.py" />
-        <option value="$PROJECT_DIR$/test04/fuyiping_js2.js" />
-        <option value="$PROJECT_DIR$/test04/fuyiping_js1.js" />
-        <option value="$PROJECT_DIR$/test04/yidian_js2.js" />
-        <option value="$PROJECT_DIR$/test04/baice_js1.js" />
-        <option value="$PROJECT_DIR$/test04/lock_screen_js1.js" />
-        <option value="$PROJECT_DIR$/test04/lock_screen_js2.js" />
-        <option value="$PROJECT_DIR$/test04/yidian_js1.js" />
-        <option value="$PROJECT_DIR$/test04/global_search_js1.js" />
-        <option value="$PROJECT_DIR$/test04/user_center_js1.js" />
-        <option value="$PROJECT_DIR$/test04/user_center_js2.js" />
-        <option value="$PROJECT_DIR$/test04/baice_js2.js" />
-        <option value="$PROJECT_DIR$/News_sdk/desired_caps.py" />
-        <option value="$PROJECT_DIR$/News_sdk/config/desired_caps.yaml" />
-        <option value="$PROJECT_DIR$/News_sdk/config/log.conf" />
-        <option value="$PROJECT_DIR$/News_sdk/common/desired_caps.py" />
-        <option value="$PROJECT_DIR$/test02/aa.py" />
-        <option value="$PROJECT_DIR$/News_sdk/baseView/base_view.py" />
-        <option value="$PROJECT_DIR$/News_sdk/businessView/enter_index_view.py" />
-        <option value="$PROJECT_DIR$/test03/__init__.py" />
-        <option value="$PROJECT_DIR$/test03/file_read.py" />
-        <option value="$PROJECT_DIR$/test03/send_desktop_cmd_request.py" />
-        <option value="$PROJECT_DIR$/test04/for_js.html" />
-        <option value="$PROJECT_DIR$/test03/Tangent_count.py" />
-        <option value="$PROJECT_DIR$/test03/tangent_count.py" />
-        <option value="$PROJECT_DIR$/News_sdk/baseView/excute_adb.py" />
-        <option value="$PROJECT_DIR$/a.py" />
-        <option value="$PROJECT_DIR$/test02/for_news_switch.py" />
-        <option value="$PROJECT_DIR$/test03/for_news_switch.py" />
-        <option value="$PROJECT_DIR$/test03/for_news_switch_tool.py" />
-        <option value="$PROJECT_DIR$/test03/for_news_switch_hot_news.py" />
-        <option value="$PROJECT_DIR$/test03/bbb.py" />
-        <option value="$PROJECT_DIR$/test03/class02.py" />
-        <option value="$PROJECT_DIR$/test03/ad_slow.py" />
-        <option value="$PROJECT_DIR$/test02/yidian_js2.js" />
-        <option value="$PROJECT_DIR$/test02/calendar_yidian_js1.js" />
-        <option value="$PROJECT_DIR$/test02/calendar_baice_js2.js" />
-        <option value="$PROJECT_DIR$/test02/calendar_baice_js1.js" />
-        <option value="$PROJECT_DIR$/test02/getvideo.py" />
-        <option value="$PROJECT_DIR$/test03/base_tools.py" />
-      </list>
-    </option>
+  <component name="ProjectId" id="1YSnmnLJqoJHqEaRioIUGyilP2j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1385" />
-    <option name="height" value="745" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="browser_news" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="browser_news" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="News_sdk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="News_sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="News_sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="baseView" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="News_sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="businessView" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="News_sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="News_sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="News_sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="test01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="test02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="test03" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestBrowserAPI" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test04" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\PycharmProjects\untitled\test03" />
-      <recent name="C:\Users\Administrator\PycharmProjects\untitled\test02" />
-      <recent name="C:\Users\Administrator\PycharmProjects\untitled\News_sdk\common" />
-      <recent name="C:\Users\Administrator\PycharmProjects\untitled\News_sdk\app" />
-      <recent name="C:\Users\Administrator\PycharmProjects\untitled\browser_news" />
+      <recent name="C:\Users\dongff\PycharmProjects\untitled\taihe_api" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\PycharmProjects\untitled\test02" />
-      <recent name="C:\Users\Administrator\PycharmProjects\untitled\News_sdk\baseView" />
-      <recent name="C:\Users\Administrator\PycharmProjects\untitled\News_sdk" />
-      <recent name="C:\Users\Administrator\PycharmProjects\untitled\browser_news" />
-      <recent name="C:\Users\Administrator\PycharmProjects\untitled\browser_news\config" />
+      <recent name="C:\Users\dongff\PycharmProjects\untitled\test04" />
+      <recent name="C:\Users\dongff\PycharmProjects\untitled\test07" />
+      <recent name="C:\Users\dongff\PycharmProjects\untitled\browser_api_hrun" />
+      <recent name="C:\Users\dongff\PycharmProjects\untitled\browser_api_test\common" />
+      <recent name="C:\Users\dongff\PycharmProjects\untitled\test05" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.aa">
-    <configuration name="aa" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.pytest for test_fixture_data.test_01">
+    <configuration name="pytest for test_fixture_data.test_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test07" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test02/aa.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_fixture_data.test_01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="base_tools" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest for test_fixture_data.test_sum" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test07" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test03/base_tools.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_fixture_data.test_sum&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="class02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest for test_pytest.TestDemo.test_demo_02" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test07" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test03/class02.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_pytest.TestDemo.test_demo_02&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="get_for_money" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest in test_fixture_data.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test07" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test02/get_for_money.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test07/test_fixture_data.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="getvideo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest in test_pytest.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test07" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test02/getvideo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test07/test_pytest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.base_tools" />
-      <item itemvalue="Python.getvideo" />
-      <item itemvalue="Python.class02" />
-      <item itemvalue="Python.get_for_money" />
-      <item itemvalue="Python.aa" />
+      <item itemvalue="Python tests.pytest for test_pytest.TestDemo.test_demo_02" />
+      <item itemvalue="Python tests.pytest in test_pytest.py" />
+      <item itemvalue="Python tests.pytest for test_fixture_data.test_01" />
+      <item itemvalue="Python tests.pytest for test_fixture_data.test_sum" />
+      <item itemvalue="Python tests.pytest in test_fixture_data.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.aa" />
-        <item itemvalue="Python.get_for_money" />
-        <item itemvalue="Python.class02" />
-        <item itemvalue="Python.getvideo" />
-        <item itemvalue="Python.base_tools" />
+        <item itemvalue="Python tests.pytest for test_fixture_data.test_01" />
+        <item itemvalue="Python tests.pytest in test_fixture_data.py" />
+        <item itemvalue="Python tests.pytest in test_pytest.py" />
+        <item itemvalue="Python tests.pytest for test_fixture_data.test_sum" />
+        <item itemvalue="Python tests.pytest for test_pytest.TestDemo.test_demo_02" />
       </list>
     </recent_temporary>
   </component>
@@ -491,17 +319,105 @@
       <updated>1501084445870</updated>
       <workItem from="1566792533596" duration="2462000" />
       <workItem from="1566974903619" duration="1924000" />
-      <workItem from="1566978179900" duration="777000" />
+      <workItem from="1566978179900" duration="1193000" />
+      <workItem from="1567062980656" duration="16666000" />
+      <workItem from="1567236630807" duration="25978000" />
+      <workItem from="1567398827182" duration="44261000" />
+      <workItem from="1568185039173" duration="26081000" />
+      <workItem from="1568604656036" duration="5655000" />
+      <workItem from="1568621450369" duration="65000" />
+      <workItem from="1568626998673" duration="9000" />
+      <workItem from="1568712363939" duration="599000" />
+      <workItem from="1568815681588" duration="9425000" />
+      <workItem from="1568989615091" duration="1597000" />
+      <workItem from="1569163795423" duration="716000" />
+      <workItem from="1569394678930" duration="33000" />
+      <workItem from="1569395044774" duration="21139000" />
+      <workItem from="1570518051638" duration="1865000" />
+      <workItem from="1570692136886" duration="4690000" />
+      <workItem from="1570767462106" duration="17417000" />
+      <workItem from="1571040726535" duration="252000" />
+      <workItem from="1571041042570" duration="22017000" />
+      <workItem from="1571214245748" duration="623000" />
+      <workItem from="1571221603905" duration="5587000" />
+      <workItem from="1571485832627" duration="1283000" />
+      <workItem from="1571997246903" duration="4825000" />
+      <workItem from="1572233214179" duration="1252000" />
+      <workItem from="1572339744826" duration="4822000" />
+      <workItem from="1572448718618" duration="1014000" />
+      <workItem from="1572600521152" duration="9338000" />
+      <workItem from="1572963989503" duration="6980000" />
+      <workItem from="1573218407291" duration="6392000" />
+      <workItem from="1573227844052" duration="32000" />
+      <workItem from="1573655252504" duration="5133000" />
+      <workItem from="1573902487520" duration="2662000" />
+      <workItem from="1574068511819" duration="17518000" />
+      <workItem from="1575278853995" duration="13407000" />
+      <workItem from="1575446115766" duration="22641000" />
+      <workItem from="1575616434787" duration="1523000" />
+      <workItem from="1575635969552" duration="4198000" />
+      <workItem from="1576502561049" duration="112000" />
+      <workItem from="1576932439782" duration="1766000" />
+      <workItem from="1576934260722" duration="168000" />
+      <workItem from="1577443729239" duration="2965000" />
+      <workItem from="1577677064198" duration="21761000" />
+      <workItem from="1578281728478" duration="301000" />
+      <workItem from="1578300695857" duration="8554000" />
+      <workItem from="1578989358390" duration="5248000" />
+      <workItem from="1579169295958" duration="8379000" />
+      <workItem from="1579673451018" duration="14370000" />
+      <workItem from="1579837821019" duration="1704000" />
+      <workItem from="1580913682058" duration="1018000" />
+      <workItem from="1580994281404" duration="1205000" />
+      <workItem from="1582129215862" duration="6986000" />
+      <workItem from="1582527798595" duration="1910000" />
+      <workItem from="1582945033751" duration="2115000" />
+      <workItem from="1582960021351" duration="8244000" />
+      <workItem from="1583223065800" duration="27030000" />
+      <workItem from="1583484897511" duration="8622000" />
+      <workItem from="1584102873524" duration="4148000" />
+      <workItem from="1584610807738" duration="3234000" />
+      <workItem from="1584941664792" duration="14000000" />
+      <workItem from="1586411479141" duration="2427000" />
+      <workItem from="1586749076531" duration="3936000" />
+      <workItem from="1587389123032" duration="3156000" />
+      <workItem from="1587474951589" duration="1716000" />
+      <workItem from="1587907467864" duration="10103000" />
+      <workItem from="1587955788640" duration="18413000" />
+      <workItem from="1589034311543" duration="5088000" />
+      <workItem from="1589449389774" duration="674000" />
+      <workItem from="1589975390500" duration="3095000" />
+      <workItem from="1592558361945" duration="620000" />
+      <workItem from="1593574538306" duration="404000" />
+      <workItem from="1594441991592" duration="1699000" />
+      <workItem from="1594719087587" duration="6481000" />
+      <workItem from="1594808935438" duration="511000" />
+      <workItem from="1595423720076" duration="1700000" />
+      <workItem from="1596209919910" duration="1185000" />
+      <workItem from="1596455515811" duration="657000" />
+      <workItem from="1596874811577" duration="3623000" />
+      <workItem from="1596889171070" duration="64000" />
+      <workItem from="1596963581744" duration="4227000" />
+      <workItem from="1597323708929" duration="1242000" />
+      <workItem from="1597491607635" duration="1898000" />
+      <workItem from="1597894584645" duration="654000" />
+      <workItem from="1598156170438" duration="10447000" />
+      <workItem from="1598423803677" duration="1479000" />
+      <workItem from="1600249021198" duration="2767000" />
+      <workItem from="1600832086554" duration="2187000" />
+      <workItem from="1600934776581" duration="7947000" />
+      <workItem from="1601016838965" duration="19257000" />
+      <workItem from="1601878379852" duration="5670000" />
+      <workItem from="1601982038670" duration="6836000" />
+    </task>
+    <task id="LOCAL-00001" summary="XXXX">
+      <created>1566983059191</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566983059192</updated>
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="Unittests_in_for_news_switch_hot_news_py - 2019.08.02 at 16h 55m 49s.xml">
-      <configuration name="Unittests in for_news_switch_hot_news.py" configurationId="tests" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5163000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -512,377 +428,98 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.20844504" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3294893" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33144477" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294893" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3789127" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3294893" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Data View" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3294893" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Data View" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="XXXX" />
     <option name="LAST_COMMIT_MESSAGE" value="XXXX" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://D:/Python/Python36-32/Lib/site-packages/selenium/webdriver/support/wait.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="WindowStateProjectService">
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1602043063840">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1602043063840" />
+    <state x="501" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601879054236">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="501" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1601879054236" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598183470231">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598183470231" />
+    <state x="209" y="2" key="CommitChangelistDialog2" timestamp="1598183559659">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598183559659" />
+    <state width="1493" height="345" key="GridCell.Tab.0.bottom" timestamp="1602057420900">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="345" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602057420900" />
+    <state width="1493" height="345" key="GridCell.Tab.0.center" timestamp="1602057420900">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="345" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602057420900" />
+    <state width="1493" height="345" key="GridCell.Tab.0.left" timestamp="1602057420899">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="345" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602057420899" />
+    <state width="1493" height="345" key="GridCell.Tab.0.right" timestamp="1602057420900">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="345" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602057420900" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1601911705107">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601911705107" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1601911705107">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601911705107" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1601911705107">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601911705107" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1601911705107">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601911705107" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1602057891601">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602057891601" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1601982051204">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1601982051204" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601049508411">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601049508411" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test04/global_search_js1.js" />
-    <entry file="file://$PROJECT_DIR$/test04/user_center_js1.js" />
-    <entry file="file://$PROJECT_DIR$/test04/user_center_js2.js" />
-    <entry file="file://$PROJECT_DIR$/test04/lock_screen_js2.js" />
-    <entry file="file://$PROJECT_DIR$/test04/yidian_js1.js" />
-    <entry file="file://$PROJECT_DIR$/test04/yidian_js2.js" />
-    <entry file="file://$PROJECT_DIR$/test04/baice_js1.js" />
-    <entry file="file://$PROJECT_DIR$/test04/baice_js2.js" />
-    <entry file="file://$PROJECT_DIR$/News_sdk/logs/log_test.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/News_sdk/config/desired_caps.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/News_sdk/config/log.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/browser_news/desired_caps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/Python36-32/Lib/site-packages/selenium/webdriver/support/wait.py" />
-    <entry file="file://$PROJECT_DIR$/News_sdk/common/desired_caps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-322">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test04/forls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test03/not_get_imei.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test04/ls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="34" column="69" lean-forward="true" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test04/for_js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test03/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-start-column="2" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test02/product_or_customer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test03/file_read.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test02/calendar_baice_js1.js" />
-    <entry file="file://$PROJECT_DIR$/test02/calendar_baice_js2.js" />
-    <entry file="file://$PROJECT_DIR$/test02/calendar_yidian_js1.js" />
-    <entry file="file://$PROJECT_DIR$/test02/calendar_yidian_js2.js" />
-    <entry file="file://$PROJECT_DIR$/test03/tangent_count.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/News_sdk/baseView/base_view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/News_sdk/baseView/excute_adb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/News_sdk/baseView/getdebug.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/News_sdk/businessView/enter_index_view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test03/send_desktop_cmd_request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1069">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test03/for_news_switch_hot_news.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
-          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test03/for_news_switch_tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test02/for_queue_test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test02/for_itchat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-517">
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test02/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test02/for_join.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test02/onethr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test02/mtsleep.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test02/getvideo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test02/ticketthr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test02/get_for_money.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test02/zhuangshi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test03/aaa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test03/class02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test03/ad_slow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test03/base_tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test03/bbb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test02/money.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test02/aa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/untitled$pytest_for_test_pytest_test_03.coverage" NAME="pytest for test_pytest.test_03 Coverage Results" MODIFIED="1601881396502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$for_mz_test.coverage" NAME="for_mz_test Coverage Results" MODIFIED="1594809388539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$aa.coverage" NAME="aa Coverage Results" MODIFIED="1583321888962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$test_os.coverage" NAME="test_os Coverage Results" MODIFIED="1600956224373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$pytest_in_test_pytest_py.coverage" NAME="pytest in test_pytest.py Coverage Results" MODIFIED="1602056195513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$test_threading.coverage" NAME="test_threading Coverage Results" MODIFIED="1601042944842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$test_loop.coverage" NAME="test_loop Coverage Results" MODIFIED="1601127050842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$bb__1_.coverage" NAME="bb (1) Coverage Results" MODIFIED="1583317395177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$create_folder_100.coverage" NAME="create_folder_100 Coverage Results" MODIFIED="1600954718960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$test_time.coverage" NAME="test_time Coverage Results" MODIFIED="1600957086469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$more_mult.coverage" NAME="more_mult Coverage Results" MODIFIED="1601039169791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$pytest_in_test_fixture_data_py.coverage" NAME="pytest in test_fixture_data.py Coverage Results" MODIFIED="1602057066564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$pytest_for_test_pytest_TestDemo_test_demo_02.coverage" NAME="pytest for test_pytest.TestDemo.test_demo_02 Coverage Results" MODIFIED="1602001867370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$for_de_encrypt__1_.coverage" NAME="for_de_encrypt (1) Coverage Results" MODIFIED="1598445575399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$bb.coverage" NAME="bb Coverage Results" MODIFIED="1598264057514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test04" />
+    <SUITE FILE_PATH="coverage/untitled$a.coverage" NAME="a Coverage Results" MODIFIED="1601971210766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$pytest_for_test_fixture_data_test_01.coverage" NAME="pytest for test_fixture_data.test_01 Coverage Results" MODIFIED="1602057076200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$pytest_for_test_pytest_test_02.coverage" NAME="pytest for test_pytest.test_02 Coverage Results" MODIFIED="1601881431074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$for_de_encrypt.coverage" NAME="for_de_encrypt Coverage Results" MODIFIED="1589284485239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$p1.coverage" NAME="p1 Coverage Results" MODIFIED="1601050059113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$orderservice.coverage" NAME="orderservice Coverage Results" MODIFIED="1594792585791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$pytest_for_test_fixture_data_test_sum.coverage" NAME="pytest for test_fixture_data.test_sum Coverage Results" MODIFIED="1602043720024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
+    <SUITE FILE_PATH="coverage/untitled$cc.coverage" NAME="for_de_encrypt Coverage Results" MODIFIED="1587997094277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test07" />
   </component>
 </project>

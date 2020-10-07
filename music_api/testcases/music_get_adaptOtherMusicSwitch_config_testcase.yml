@@ -1,0 +1,29 @@
+- config:
+    name: test config
+#    request:
+    base_url: http://zhuoyan-3g.gionee.com
+
+- test:
+    name: get_encryption_imei
+    api: api/get_encryption_imei.yml
+    extract:
+      imei_encry: content
+
+- test:
+    name: get_adaptOhterMusicSwitch_config testcase
+    request:
+      url: /ssc/cfg/getConfigs
+      method: POST
+      data:
+        versionName: 5.3.2.t
+        packageName: com.android.music
+        namespace: config
+        versionCode: 2026532023
+        brand: GIONEE
+        appid: 20003
+        model: ${model_name}
+        imei: ${imei_encry}
+    variables:
+      re_bol: ${get_adaptOtherMusicSwitch_config($imei_name)}
+    validate:
+      - get_adaptOtherMusicSwitch_result: [content.data, $re_bol]

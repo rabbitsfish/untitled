@@ -1,0 +1,6 @@
+config:
+  name: "强升级通道"
+  base_url: "http://t-3g.gionee.com"
+
+testcases:
+  test

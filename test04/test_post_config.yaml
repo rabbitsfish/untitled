@@ -1,0 +1,21 @@
+- config:
+    name: test_limit_api
+    request:
+    base_url: http://zhuoyan-3g.gionee.com
+
+- test:
+    name: test_no_limit_modle
+    parameters:
+      - model_name: ${P(get_models.csv)}
+    request:
+      url: /ssc/cfg/getConfigs
+      method: post
+      params:
+        versionName: 5.3.2.t
+        packageName: com.android.music
+        namespace: config
+        versionCode: 2026532023
+        imei: 61374BE70391D138C59679F7928FD8C9
+        brand: GIONEE
+        appid: 20003
+        model: $model_name

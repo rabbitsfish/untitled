@@ -11,7 +11,7 @@ def get_request_parmes(parmes):
 
 def get_request_api_sign(parme_dict, keys_normal_li):
     encryption_parme(parme_dict, 'cs', 'imei', 'city')
-    #print('parme_dict__:', parme_dict)
+    # print('parme_dict__:', parme_dict)
     api_keys_dict = {
         'cb412e048ee48f5f6ca62f9bf339a069' : '84ccd57681cea4ae9ccac0517fd2e0dd',
         '9dac6633be895da152187b9c1a5c0042' : '587ca62428fbb663bb652a49d88bf7e7',
@@ -24,14 +24,12 @@ def get_request_api_sign(parme_dict, keys_normal_li):
             keys_li.append(key)
     if keys_li.__len__() > 0:
         keys_li.sort()
-        #print('keys_li:', keys_li)
     for key in keys_li:
         parme_values = parme_values + parme_dict[key]
-        #print(parme_values)
     parme_values = parme_values + api_keys_dict[parme_dict['api_key']]
     # print('parme_values:', parme_values)
     api_sign = get_values_MD5(parme_values)
-   # print('api_sign:', api_sign)
+    print('api_sign:', api_sign)
     return api_sign
 
 def get_values_MD5(values_string):
@@ -48,7 +46,7 @@ def encryption_parme(parme_dict, *args):
 def encryption_s(s):
     url = 'http://t-osapi-3g.gionee.com/api/adminapi/imei?type=encode&imei=%s' % s
     r = requests.get(url)
-    #print(r.text)
+    print(r.text)
     return r.text
 
 

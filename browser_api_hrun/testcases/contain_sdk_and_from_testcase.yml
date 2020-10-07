@@ -1,0 +1,19 @@
+- config:
+    name: "SDK和from都符合的情况"
+
+- test:
+    name: "请求静默的接口"
+    request:
+        url: api/switch_a/silence
+        method: GET
+        params:
+            imei: 008600211651046
+            model: M7
+            api_key: 9dac6633be895da152187b9c1a5c0042
+            city: 深圳
+            sdk: toutiao_SDK
+            from: cdsp
+    setup_hooks:
+        - ${setup_hook_prepare_get_sign($request, $arr_sign)}
+    validate:
+        - eq: [content.data.obj.silence, 0]

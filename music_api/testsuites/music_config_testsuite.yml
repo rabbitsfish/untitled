@@ -1,0 +1,27 @@
+config:
+    name: "music_config testsuite"
+#    variables:
+#        device_sn: "XYZ"
+#    base_url: http://zhuoyan-3g.gionee.com
+
+testcases:
+#  test ${model_name} and ${imei_name} config:
+#    testcase: testcases/music_get_config_testcase.yml
+#    parameters:
+#      - model_name: ${P(data/get_models.csv)}
+#      - imei_name: ${P(data/get_imeis.csv)}
+##      model_name: ["GIONEE M7", "GIONEE M6", "GIONEE M5"]
+##      imei_name: ["008600211651001", "008600211651002", "008600211651003"]
+#      model_name: ["GIONEE M7"]
+#      imei_name: ["008600211651001"]
+#  test ${model_name} and ${imei_name} get_adaptOtherMusicSwitch_result config:
+#      testcase: testcases/music_get_adaptOtherMusicSwitch_config_testcase.yml
+#      parameters:
+#        - model_name: ${P(data/get_models.csv)}
+#        - imei_name: ${P(data/get_imeis.csv)}
+
+  test ${model_name} and ${imei_name} testxxxx config:
+    testcase: testcases/music_get_testXXX_config.yml
+    parameters:
+      - model_name: ${P(data/get_models.csv)}
+      - imei_name: ${P(data/get_imeis.csv)}

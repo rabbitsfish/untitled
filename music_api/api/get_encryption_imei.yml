@@ -1,0 +1,8 @@
+name: get_encryption_imei
+base_url: http://t-osapi-3g.gionee.com
+request:
+  url: /api/adminapi/imei
+  method: get
+  params:
+    type: encode
+    imei: ${imei_name}

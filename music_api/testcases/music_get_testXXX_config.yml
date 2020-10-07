@@ -1,0 +1,32 @@
+- config:
+    name: test config
+#    request:
+    base_url: http://zhuoyan-3g.gionee.com
+
+- test:
+    name: get_encryption_imei
+    api: api/get_encryption_imei.yml
+    extract:
+      imei_encry: content
+
+- test:
+    name: get testXXX
+    request:
+      url: /ssc/cfg/getConfigs
+      method: POST
+      data:
+        versionName: 5.3.2.t
+        packageName: com.android.music
+        namespace: config
+        versionCode: 2026532023
+        brand: GIONEE
+        appid: 20003
+        model: ${model_name}
+        imei: ${imei_encry}
+    variables:
+      testX1_bol: ${get_testX1_config($imei_name, $model_name)}
+      testX2_bol: ${get_testX2_config($imei_name, $model_name)}
+    validate:
+      - eq: ["content.data.testX1", $testX1_bol]
+      - eq: ["content.data.testX2", $testX2_bol]
+      - eq: ["content.data.testX3", "false"]

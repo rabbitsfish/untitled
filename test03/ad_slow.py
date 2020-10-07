@@ -1,4 +1,5 @@
 import requests
+from test03 import base_tools
 count_list = {}
 count_no_ad = 0
 count_news_fail = 0
@@ -40,6 +41,8 @@ def get_show_count(request_url):
     # print('result:', result)
     li = result['data']['list']
     if (li != ''):
+        if len(li) < 8:
+            print('len:', len(li))
         for ele in li:
             # print('ele:', ele)
             if ele['ad_type'] == 1:
@@ -51,9 +54,9 @@ def get_show_count(request_url):
                     else:
                         count_list[ele['id']] = 1
                 break
-            else:
-                global count_no_ad
-                count_no_ad = count_no_ad + 1
+        else:
+            global count_no_ad
+            count_no_ad = count_no_ad + 1
     else:
         global count_news_fail
         count_news_fail = count_news_fail + 1
@@ -89,6 +92,53 @@ def exchange_count():
         count_per_list[id] = count_list[id] / count_ad
     return count_per_list
 
+def get_video_cp():
+    request_url = 'http://3gosapi.3gtest2.gionee.com/api/video/channel?api_key=9dac6633be895da152187b9c1a5c0042&imei=61374BE70391D138C59679F7928FD8C9&api_sign=23d624b9b22b83332985e7f3498ac66f&app_ver=5.5.6&model=M7'
+    base_tools.get_request_parmes('api_key=9dac6633be895da152187b9c1a5c0042&imei=61374BE70391D138C59679F7928FD8C9&api_sign=23d624b9b22b83332985e7f3498ac66f&app_ver=5.5.6&model=M7')
+    url = request_url.split('?')[0]
+    par_url = request_url.split('?')[1]
+    pars = par_url.split('&')
+    data = {}
+    for ele in pars:
+        li = ele.split('=')
+        data[li[0]] = li[1]
+    base_imei = '0086002116510'
+    count = {'yk': 0, 'yd' : 0, 'wl' : 0}
+    for i in range(100):
+        if i < 10:
+            imei = base_imei + '0' + str(i)
+        else:
+            imei = base_imei + str(i)
+        data['imei'] = imei
+        app_sign = base_tools.get_request_api_sign(data, ['imei', 'api_key'])
+        data['api_sign'] = app_sign
+        result = requests.get(url, params=data).json()
+        try:
+            id_name = result['data']['list'][0]['id']
+            if 'YK' in id_name:
+                count['yk'] = count['yk'] + 1
+            elif 'YD' in id_name:
+                count['yd'] = count['yd'] + 1
+            elif 'WL' in id_name:
+                count['wl'] = count['wl'] + 1
+            else:
+                print('失败了')
+        except Exception as e:
+            print(e)
+    print(count)
+
+def get_music_banner():
+    url = 'http://t-osapi-3g.gionee.com/api/music_banner/list'
+    data = {
+        'api_key' : '9dac6633be895da152187b9c1a5c0042',
+        'imei' : '008600211651046',
+        'model' : 'M7',
+        'app_ver' : '5.3.3',
+        'cs' : '深圳',
+    }
+    data['api_sign'] = base_tools.get_request_api_sign(data, ['api_key', 'imei', 'model', 'app_ver', 'cs'])
+    result = requests.get(url, params=data)
+    return result.json()['data']['list']
 
 if __name__ == '__main__':
     # for i in range(100):
@@ -98,11 +148,25 @@ if __name__ == '__main__':
     # print('count_ad_fail', count_ad_fail)
     # print('count_ad', count_ad)
     # print(exchange_count())
-    url = 'http://3gosapi.3gtest2.gionee.com/api/news_list/more?sdk=LIULANQI&client_id=Q4oZsgSvXyqLx3XA10Aflw==&dpi=480&carrier=0&timestamp=1565257760678&api_key=9dac6633be895da152187b9c1a5c0042&third_ad_support=1&ma=6666851257A2CCFC4A2B674AB25D895CCC7252D41F592B31E8ABA270C59F1199&connect_type=wifi&imei=57D463AE38317BA1A5571185291E3FC3&bss_id=34:12:f9:88:ee:44&mcc=460&apn=wifi&type=60&pkg=com.android.browser&android_id=c24180fde8209488&number=11&dw=1B5F7C84ADB1EA147780BAED5D6CCE96081F6BEEF997BD70B2E6A1CD6011F09B&app_ver=5.5.6.ar&refreshtype=pull_down&api_sign=6c68f637ba1df5c25d364c6d05adb5c8&h=1920&w=1080&openudid=c24180fde8209488&device_id=J6LGY5MsiXxmX+BoBvePe9lLbJC539nkbrbbICR7o6M=&cp_id=2&sdk_version=1.0.4.b&ua=Mozilla_5_0__Linux__U__Android_6_0__zh_cn__Build_MRA58K___AppleWebKit_534_30__KHTML_like_Gecko__Version_4_0_Chrome_50_0_0_0_Mobile_Safari_534_30_GIONEE_GN8002_GN8002_RV_5_0_16_GNBR_5_4_0_betas_Id_74FF923479FF242F0B7E76D152A11EC9&os_version=7.0&model=GIONEES10&lac=30516'
-    # result = requests.get(url=url).text
-    # print(result)
-    for i in range(200):
-        get_show_count(url)
-    print('count_list:', count_list)
-    print(exchange_count())
+    # url = 'http://3gosapi.3gtest2.gionee.com/api/news_list/more?sdk=LIULANQI&client_id=Q4oZsgSvXyqLx3XA10Aflw==&dpi=480&carrier=0&timestamp=1565257760678&api_key=9dac6633be895da152187b9c1a5c0042&third_ad_support=1&ma=6666851257A2CCFC4A2B674AB25D895CCC7252D41F592B31E8ABA270C59F1199&connect_type=wifi&imei=57D463AE38317BA1A5571185291E3FC3&bss_id=34:12:f9:88:ee:44&mcc=460&apn=wifi&type=60&pkg=com.android.browser&android_id=c24180fde8209488&number=11&dw=1B5F7C84ADB1EA147780BAED5D6CCE96081F6BEEF997BD70B2E6A1CD6011F09B&app_ver=5.5.6.ar&refreshtype=pull_down&api_sign=6c68f637ba1df5c25d364c6d05adb5c8&h=1920&w=1080&openudid=c24180fde8209488&device_id=J6LGY5MsiXxmX+BoBvePe9lLbJC539nkbrbbICR7o6M=&cp_id=2&sdk_version=1.0.4.b&ua=Mozilla_5_0__Linux__U__Android_6_0__zh_cn__Build_MRA58K___AppleWebKit_534_30__KHTML_like_Gecko__Version_4_0_Chrome_50_0_0_0_Mobile_Safari_534_30_GIONEE_GN8002_GN8002_RV_5_0_16_GNBR_5_4_0_betas_Id_74FF923479FF242F0B7E76D152A11EC9&os_version=7.0&model=GIONEES10&lac=30516'
+    # # result = requests.get(url=url).text
+    # # print(result)
+    # for i in range(200):
+    #     get_show_count(url)
+    # print('count_list:', count_list)
+    # print(exchange_count())
     # print(exchange_count(url))
+    # get_video_cp()
+    # url = 'http://3gosapi.3gtest2.gionee.com/api/news_list/more?sdk=LIULANQI&client_id=/wOSq5iL7vCaKb+ATFhBWw==&dpi=480&carrier=0&timestamp=1569396851101&api_key=9dac6633be895da152187b9c1a5c0042&third_ad_support=2&ma=A2680AB1A08D4E26A078EA929972D53CAB8C39391C4B5FDC5E39EF1698CD48EB&connect_type=wifi&imei=61374BE70391D138C59679F7928FD8C9&bss_id=34:12:f9:88:ee:44&mcc=460&apn=wifi&type=60&pkg=com.android.browser&android_id=4c84d6633b6eb712&number=33&dw=33A7D02791C673E4B12A4C748AD095BE&app_ver=5.5.6.bd&refreshtype=launch&api_sign=ad6ed3190322cc657893a924f5570264&h=2016&w=1080&openudid=4c84d6633b6eb712&device_id=ySZ+dWe+v5MAAL9AzeBHuNinZb76QRZqg3nFJ+YjjU0=&cp_id=8&sdk_version=1.0.4.b&ua=Mozilla_5_0__Linux__U__Android_6_0__zh_cn__Build_MRA58K___AppleWebKit_534_30__KHTML_like_Gecko__Version_4_0_Chrome_50_0_0_0_Mobile_Safari_534_30_GIONEE_GN8002_GN8002_RV_5_0_16_GNBR_5_4_0_betas_Id_74FF923479FF242F0B7E76D152A11EC9&os_version=7.1.1&model=GIONEEM7&lac=1 HTTP/1.1'
+    # for i in range(1000):
+    #     get_show_count(url)
+    # print('count_list:', count_list)
+    # print('count_no_ad', count_no_ad)
+    # print('count_news_fail', count_news_fail)
+    url = 'http://3gosapi.3gtest2.gionee.com/api/news_list/more?sdk=CALENDAE_HOME&client_id=/wOSq5iL7vCaKb+ATFhBWw==&dpi=480&carrier=0&timestamp=1569486427389&api_key=9dac6633be895da152187b9c1a5c0042&third_ad_support=2&ma=A2680AB1A08D4E26A078EA929972D53CAB8C39391C4B5FDC5E39EF1698CD48EB&connect_type=wifi&imei=61374BE70391D138C59679F7928FD8C9&bss_id=34:12:f9:88:ee:44&mcc=460&apn=wifi&type=60&pkg=com.android.music&android_id=4c84d6633b6eb712&number=11&dw=33A7D02791C673E4B12A4C748AD095BE&app_ver=6.3.2.e&refreshtype=pull_down&api_sign=9193271f48776d9017e9d183922bdea7&h=2016&w=1080&openudid=4c84d6633b6eb712&device_id=ySZ+dWe+v5MAAL9AzeBHuNinZb76QRZqg3nFJ+YjjU0=&cp_id=9&sdk_version=1.0.4.b&ua=Mozilla_5_0__Linux__U__Android_6_0__zh_cn__Build_MRA58K___AppleWebKit_534_30__KHTML_like_Gecko__Version_4_0_Chrome_50_0_0_0_Mobile_Safari_534_30_GIONEE_GN8002_GN8002_RV_5_0_16_GNBR_5_4_0_betas_Id_74FF923479FF242F0B7E76D152A11EC9&os_version=7.1.1&model=GIONEEM7&lac=1 HTTP/1.1'
+    get_show_count(url)
+    # for i in range(100):
+    #     get_show_count(url)
+    # print('count_list:', count_list)
+    # print('count_no_ad', count_no_ad)
+    # print('count_news_fail', count_news_fail)

@@ -1,0 +1,10 @@
+config:
+    name: "测试充电锁屏的比例"
+    base_url: "http://3g.gionee.com"
+
+testcases:
+  test 充电锁屏的静默安装比例:
+    testcase: testcases/contain_sdk_and_from_testcase.yml
+    variables:
+      "arr_sign": '["api_key", "imei", "model", "city", "sdk", "from"]'
+
