@@ -1,95 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49ad535c-dfa3-4d51-841a-7e426c9de576" name="Default" comment="XXXX">
-      <change afterPath="$PROJECT_DIR$/browser_api_hrun/base_tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser_api_hrun/testsuites/ilent_installation_testsuit.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser_api_hrun/testsuites/up_chl_testsuit.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser_api_test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser_api_test/case/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser_api_test/case/cdsp_conf/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser_api_test/case/cdsp_conf/test_ilent_installation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser_api_test/case/cdsp_conf/test_ilent_installation_ratio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser_api_test/case/toutiao_news_source_config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser_api_test/case/toutiao_news_source_config/source_limit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser_api_test/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser_api_test/common/base_tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser_api_test/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_api/api/get_encryption_imei.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_api/data/get_imeis.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_api/data/get_models.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_api/debugtalk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_api/testcases/music_get_adaptOtherMusicSwitch_config_testcase.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_api/testcases/music_get_config_testcase.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_api/testcases/music_get_notification_ad_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_api/testcases/music_get_testXXX_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_api/testsuites/music_config_testsuite.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taihe_api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taihe_api/get_CN_singer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taihe_api/get_HK_signer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taihe_api/modify_taihe_result.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test03/1111.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test03/change_huangli.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test03/change_music_news.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test03/direct_url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test04/11.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test04/50.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test04/UDP_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test04/addones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test04/bb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test04/counter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test04/debugtalk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test04/forMitmproxy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test04/getCps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test04/getPushMsg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test04/get_browser_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test04/get_meizu_ad_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test04/get_models.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test04/get_more_news.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test04/get_third_music_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test04/test_post_config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test05/20190920_222543.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test05/20190920_231922.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test05/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test05/data_contrast.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test05/sqllab_untitled_query_20190916T115105.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test05/音乐埋点.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test06/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test06/aa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test06/bb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test06/bbb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test06/ccc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test06/comparing_MD5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test06/forAes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test06/forAudio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test06/forRes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test06/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test07/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test07/create_folder_100.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test07/for_mz_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test07/more_mult.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test07/my_thread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test07/orderservice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test07/p1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test07/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test07/test_fixture_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test07/test_loop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test07/test_mark.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test07/test_os.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test07/test_pytest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test07/test_threading.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test07/test_time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
+    <list default="true" id="49ad535c-dfa3-4d51-841a-7e426c9de576" name="Default" comment="add pytest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.py" beforeDir="false" afterPath="$PROJECT_DIR$/a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test01/test_append.py" beforeDir="false" afterPath="$PROJECT_DIR$/test01/test_append.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test03/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test03/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test03/ad_slow.py" beforeDir="false" afterPath="$PROJECT_DIR$/test03/ad_slow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test03/base_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/test03/base_tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test03/tangent_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/test03/tangent_count.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test04/.a.b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/browser_api_hrun/testcases/contain_sdk_and_from_testcase.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test04/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test04/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +109,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/test04" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -308,7 +222,8 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\dongff\AppData\Roaming\Subversion</configuration>
+    <option name="sshConnectionType" value="PRIVATE_KEY" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -408,15 +323,17 @@
       <workItem from="1600934776581" duration="7947000" />
       <workItem from="1601016838965" duration="19257000" />
       <workItem from="1601878379852" duration="5670000" />
-      <workItem from="1601982038670" duration="6836000" />
+      <workItem from="1601982038670" duration="10843000" />
+      <workItem from="1602067080898" duration="715000" />
     </task>
-    <task id="LOCAL-00001" summary="XXXX">
-      <created>1566983059191</created>
+    <task id="LOCAL-00001" summary="add pytest">
+      <created>1602062872194</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1566983059192</updated>
+      <updated>1602062872195</updated>
     </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -433,7 +350,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="XXXX" />
-    <option name="LAST_COMMIT_MESSAGE" value="XXXX" />
+    <MESSAGE value="add pytest" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pytest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1602043063840">
@@ -448,26 +366,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598183470231" />
-    <state x="209" y="2" key="CommitChangelistDialog2" timestamp="1598183559659">
+    <state x="531" y="183" key="#com.intellij.tools.ToolEditorDialog" timestamp="1602066586781">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598183559659" />
-    <state width="1493" height="345" key="GridCell.Tab.0.bottom" timestamp="1602057420900">
+    <state x="531" y="183" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1602066586781" />
+    <state x="209" y="2" key="CommitChangelistDialog2" timestamp="1602062869945">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="345" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602057420900" />
-    <state width="1493" height="345" key="GridCell.Tab.0.center" timestamp="1602057420900">
+    <state x="209" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602062869945" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602066568054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="345" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602057420900" />
-    <state width="1493" height="345" key="GridCell.Tab.0.left" timestamp="1602057420899">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602066568054" />
+    <state x="632" y="303" key="Github.ShareDialog" timestamp="1602067789942">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="345" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602057420899" />
-    <state width="1493" height="345" key="GridCell.Tab.0.right" timestamp="1602057420900">
+    <state x="632" y="303" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1602067789942" />
+    <state width="1493" height="345" key="GridCell.Tab.0.bottom" timestamp="1602067051610">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="345" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602057420900" />
+    <state width="1493" height="345" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602067051610" />
+    <state width="1493" height="345" key="GridCell.Tab.0.center" timestamp="1602067051610">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="345" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602067051610" />
+    <state width="1493" height="345" key="GridCell.Tab.0.left" timestamp="1602067051609">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="345" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602067051609" />
+    <state width="1493" height="345" key="GridCell.Tab.0.right" timestamp="1602067051610">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="345" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602067051610" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1601911705107">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -484,14 +414,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601911705107" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1602057891601">
+    <state x="270" y="54" key="SettingsEditor" timestamp="1602067729269">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602057891601" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1601982051204">
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602067729269" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1602067082497">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1601982051204" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1602067082497" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601049508411">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
